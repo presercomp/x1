@@ -1,36 +1,43 @@
 @font-face {
-    font-family: "MWF-MDL2";
-    src: url(http://localhost/componenter/cards/assets/fonts/applicatigOERHvatwoff.woff)
+    font-family: 'MWF-MDL2';
+    src: url("../fonts/applicatigOERHvatwoff.woff");
 }
 
 @font-face {
     font-family: 'SegoeUI';
-    src: local('Segoe UI'), local("Segoe UI"), url(http://localhost/componenter/cards/assets/fonts/fontwoffO2WwV5twoff2.woff2);
+    src: local('Segoe UI'), local("Segoe UI"), url("../fonts/fontwoffO2WwV5twoff2.woff2");
     font-weight: 400
 }
 
 @font-face {
     font-family: 'SegoeUI';
-    src: local('Segoe UI'), local("Segoe UI Light"), url(http://localhost/componenter/cards/assets/fonts/fontwoff3OWi5twoff2.woff2);
+    src: local('Segoe UI'), local("Segoe UI Light"), url("../fonts/fontwoff3OWi5twoff2.woff2");
     font-weight: 100
 }
 
 @font-face {
     font-family: 'SegoeUI';
-    src: local('Segoe UI'), local("Segoe UI Semilight"), local("Segoe UI"), url(http://localhost/componenter/cards/assets/fonts/fontwofffn798xtwoff2.woff2);
+    src: local('Segoe UI'), local("Segoe UI Semilight"), local("Segoe UI"), url("../fonts/fontwofffn798xtwoff2.woff2");
     font-weight: 200
 }
 
 @font-face {
     font-family: 'SegoeUI';
-    src: local('Segoe UI'), local("Segoe UI Semibold"), url(http://localhost/componenter/cards/assets/fonts/fontwoffQaeVZotwoff2.woff2);
+    src: local('Segoe UI'), local("Segoe UI Semibold"), url("../fonts/fontwoffQaeVZotwoff2.woff2");
     font-weight: 600
 }
 
 @font-face {
     font-family: 'SegoeUI';
-    src: local('Segoe UI'), local("Segoe UI Bold"), local("Segoe UI"), url(http://localhost/componenter/cards/assets/fonts/fontwoff2woDgxtwoff2.woff2);
+    src: local('Segoe UI'), local("Segoe UI Bold"), local("Segoe UI"), url("../fonts/fontwoff2woDgxtwoff2.woff2");
     font-weight: 700
+}
+
+@font-face {
+    font-family: 'FabricMDL2Icons';
+    src: url("../fonts/fontwoff1rX4vuatwoff.woff");
+    font-weight: 400;
+    font-style: normal
 }
 
 @keyframes fadeIn {
@@ -127,35 +134,6 @@ button {
 button {
     -webkit-appearance: button;
     cursor: pointer
-}
-
-@font-face {
-    font-family: "MWF-MDL2";
-    src: url(http://localhost/componenter/cards/assets/fonts/applicatigOERHvatwoff.woff)
-}
-
-@font-face {
-    font-family: "SegoeUI";
-    src: local('Segoe UI'), local("Segoe UI"), url(http://localhost/componenter/cards/assets/fonts/fontwoffO2WwV5twoff2.woff2);
-    font-weight: 400
-}
-
-@font-face {
-    font-family: "SegoeUI";
-    src: local('Segoe UI'), local("Segoe UI Light"), url(http://localhost/componenter/cards/assets/fonts/fontwoff3OWi5twoff2.woff2);
-    font-weight: 100
-}
-
-@font-face {
-    font-family: "SegoeUI";
-    src: local('Segoe UI'), local("Segoe UI Semilight"), local("Segoe UI"), url(http://localhost/componenter/cards/assets/fonts/fontwofffn798xtwoff2.woff2);
-    font-weight: 200
-}
-
-@font-face {
-    font-family: "SegoeUI";
-    src: local('Segoe UI'), local("Segoe UI Semibold"), url(http://localhost/componenter/cards/assets/fonts/fontwoffQaeVZotwoff2.woff2);
-    font-weight: 600
 }
 
 .c-paragraph-4 {
@@ -386,7 +364,7 @@ a.c-button[role="button"].f-lightweight:active {
 }
 
 .c-rating .c-glyph:before {
-    font-family: "MWF-MDL2";
+    font-family: 'MWF-MDL2';
     content: "";
     color: rgba(0, 0, 0, 0.3)
 }
@@ -828,11 +806,11 @@ screen and (max-device-width:768px) and (max-device-height:768px) and (-webkit-m
 }
 
 .spza_tileWrapper .tileContent .ms-BrandIcon--word.ms-BrandIcon-svg--icon16 {
-    background-image: url(http://localhost/componenter/cards/assets/images/imagesvgEgMCAw8PC9zdmc.svg)
+    background-image: url(../images/imagesvgEgMCAw8PC9zdmc.svg)
 }
 
 .spza_tileWrapper .tileContent .ms-BrandIcon--outlook.ms-BrandIcon-svg--icon16 {
-    background-image: url(http://localhost/componenter/cards/assets/images/imagesvgIDAgMCwvc3ZnPg.svg)
+    background-image: url(../images/imagesvgIDAgMCwvc3ZnPg.svg)
 }
 
 .spza_tileWrapper .tileFooter {
@@ -1037,41 +1015,6 @@ screen and (max-device-width:768px) and (max-device-height:768px) and (-webkit-m
         min-width: auto;
         max-width: 100%
     }
-}
-
-@font-face {
-    font-family: Segoe UI WestEuropean;
-    src: local('Segoe UI Light'), url(http://localhost/componenter/cards/assets/fonts/fontwoffO3pXlptwoff2.woff2);
-    font-weight: 100;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Segoe UI WestEuropean;
-    src: local('Segoe UI'), url(http://localhost/componenter/cards/assets/fonts/fontwoffmh8l5twoff2.woff2);
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Segoe UI WestEuropean;
-    src: local('Segoe UI Semibold'), url(http://localhost/componenter/cards/assets/fonts/fontwoffHShBqutwoff2.woff2);
-    font-weight: 600;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Segoe UI WestEuropean;
-    src: local('Segoe UI Semilight'), url(http://localhost/componenter/cards/assets/fonts/fontwoffEUVElgtwoff2.woff2);
-    font-weight: 200;
-    font-style: normal
-}
-
-@font-face {
-    font-family: FabricMDL2Icons;
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff1rX4vuatwoff.woff);
-    font-weight: 400;
-    font-style: normal
 }
 
 @keyframes slideRightIn10 {
@@ -2166,266 +2109,266 @@ screen and (max-device-width:768px) and (max-device-height:768px) and (-webkit-m
 
 @font-face {
     font-family: 'Leelawadee UI Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff9s5s3rtwoff2.woff2);
+    src: url("../fonts/fontwoff9s5s3rtwoff2.woff2");
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Leelawadee UI Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff9s5s3rtwoff2.woff2);
+    src: url("../fonts/fontwoff9s5s3rtwoff2.woff2");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Leelawadee UI Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffnYpg9dtwoff2.woff2);
+    src: url("../fonts/fontwoffnYpg9dtwoff2.woff2");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Leelawadee UI Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffc2NwvHtwoff2.woff2);
+    src: url("../fonts/fontwoffc2NwvHtwoff2.woff2");
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Leelawadee UI Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffc2NwvHtwoff2.woff2);
+    src: url("../fonts/fontwoffc2NwvHtwoff2.woff2");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Arabic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffMryyO4twoff2.woff2);
+    src: url("../fonts/fontwoffMryyO4twoff2.woff2");
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Arabic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffWl3z3wtwoff2.woff2);
+    src: url("../fonts/fontwoffWl3z3wtwoff2.woff2");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Arabic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffivVdoLtwoff2.woff2);
+    src: url("../fonts/fontwoffivVdoLtwoff2.woff2");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Arabic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffHmxKWatwoff2.woff2);
+    src: url(../fonts/fontwoffHmxKWatwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Arabic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffdC197itwoff2.woff2);
+    src: url(../fonts/fontwoffdC197itwoff2.woff2);
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Cyrillic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffDBIM3rtwoff2.woff2);
+    src: url(../fonts/fontwoffDBIM3rtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Cyrillic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffLhcBKStwoff2.woff2);
+    src: url(../fonts/fontwoffLhcBKStwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Cyrillic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffLQQ0Dhtwoff2.woff2);
+    src: url(../fonts/fontwoffLQQ0Dhtwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Cyrillic)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffGCPNeStwoff2.woff2);
+    src: url(../fonts/fontwoffGCPNeStwoff2.woff2);
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (East European)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffKdhG0twoff2.woff2);
+    src: url(../fonts/fontwoffKdhG0twoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (East European)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffPN5EtKtwoff2.woff2);
+    src: url(../fonts/fontwoffPN5EtKtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (East European)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffF5rk3btwoff2.woff2);
+    src: url(../fonts/fontwoffF5rk3btwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (East European)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffdRGnGktwoff2.woff2);
+    src: url(../fonts/fontwoffdRGnGktwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (East European)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffJhvZ6ftwoff2.woff2);
+    src: url(../fonts/fontwoffJhvZ6ftwoff2.woff2);
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Greek)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffOYh6O0twoff2.woff2);
+    src: url(../fonts/fontwoffOYh6O0twoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Greek)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff5dQFTttwoff2.woff2);
+    src: url(../fonts/fontwoff5dQFTttwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Greek)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffiQkDGmtwoff2.woff2);
+    src: url(../fonts/fontwoffiQkDGmtwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Greek)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwofflC2XM5twoff2.woff2);
+    src: url(../fonts/fontwofflC2XM5twoff2.woff2);
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Hebrew)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff9uP57Itwoff2.woff2);
+    src: url(../fonts/fontwoff9uP57Itwoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Hebrew)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffUEkXUNtwoff2.woff2);
+    src: url(../fonts/fontwoffUEkXUNtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Hebrew)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff5G9ZWXtwoff2.woff2);
+    src: url("../fonts/fontwoff5G9ZWXtwoff2.woff2");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Hebrew)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff8zHFo7twoff2.woff2);
+    src: url("../fonts/fontwoff8zHFo7twoff2.woff2");
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Hebrew)';
-    src: url(http://localhost/componenter/cards/assets/fonts/applicatibvGvmtwoff2.woff2);
+    src: url("../fonts/applicatibvGvmtwoff2.woff2") format('woff2');
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Vietnamese)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffqQHRcvtwoff2.woff2);
+    src: url("../fonts/fontwoffqQHRcvtwoff2.woff2");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Vietnamese)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffTE2opvtwoff2.woff2);
+    src: url("../fonts/fontwoffTE2opvtwoff2.woff2");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Vietnamese)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffr7ixz2twoff2.woff2);
+    src: url("../fonts/fontwoffr7ixz2twoff2.woff2");
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (Vietnamese)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffLHNGr5twoff2.woff2);
+    src: url("../fonts/fontwoffLHNGr5twoff2.woff2");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Segoe UI Web (West European)';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffb8DOtwoff2.woff2);
+    src: url("../fonts/fontwoffb8DOtwoff2.woff2");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Selawik Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffEFQVm7twoff2.woff2);
+    src: url(../fonts/fontwoffEFQVm7twoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Selawik Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff1ZonVbtwoff2.woff2);
+    src: url(../fonts/fontwoff1ZonVbtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Selawik Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffvvMaf9twoff2.woff2);
+    src: url(../fonts/fontwoffvvMaf9twoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Selawik Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff8XKSsYtwoff2.woff2);
+    src: url(../fonts/fontwoff8XKSsYtwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Selawik Web';
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff3WL8vetwoff2.woff2);
+    src: url(../fonts/fontwoff3WL8vetwoff2.woff2);
     font-weight: 700;
     font-style: normal
 }
@@ -2752,241 +2695,217 @@ screen and (max-device-width:768px) and (max-device-height:768px) and (-webkit-m
 
 @font-face {
     font-family: "Leelawadee UI Web";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff9s5s3rtwoff2.woff2);
+    src: url(../fonts/fontwoff9s5s3rtwoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: "Leelawadee UI Web";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffnYpg9dtwoff2.woff2);
+    src: url(../fonts/fontwoffnYpg9dtwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Leelawadee UI Web";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffc2NwvHtwoff2.woff2);
+    src: url(../fonts/fontwoffc2NwvHtwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Arabic)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffMryyO4twoff2.woff2);
+    src: url(../fonts/fontwoffMryyO4twoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Arabic)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffWl3z3wtwoff2.woff2);
+    src: url(../fonts/fontwoffWl3z3wtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Arabic)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffivVdoLtwoff2.woff2);
+    src: url(../fonts/fontwoffivVdoLtwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Arabic)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffHmxKWatwoff2.woff2);
+    src: url(../fonts/fontwoffHmxKWatwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Cyrillic)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffpfMBpItwoff2.woff2);
+    src: url(../fonts/fontwoffpfMBpItwoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Cyrillic)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffDBIM3rtwoff2.woff2);
+    src: url(../fonts/fontwoffDBIM3rtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Cyrillic)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffLhcBKStwoff2.woff2);
+    src: url(../fonts/fontwoffLhcBKStwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Cyrillic)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffLQQ0Dhtwoff2.woff2);
+    src: url(../fonts/fontwoffLQQ0Dhtwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (East European)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffKdhG0twoff2.woff2);
+    src: url(../fonts/fontwoffKdhG0twoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (East European)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffPN5EtKtwoff2.woff2);
+    src: url(../fonts/fontwoffPN5EtKtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (East European)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffF5rk3btwoff2.woff2);
+    src: url(../fonts/fontwoffF5rk3btwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (East European)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffdRGnGktwoff2.woff2);
+    src: url(../fonts/fontwoffdRGnGktwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Greek)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwofff1PXvGtwoff2.woff2);
+    src: url(../fonts/fontwofff1PXvGtwoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Greek)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffOYh6O0twoff2.woff2);
+    src: url(../fonts/fontwoffOYh6O0twoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Greek)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff5dQFTttwoff2.woff2);
+    src: url(../fonts/fontwoff5dQFTttwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Greek)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffiQkDGmtwoff2.woff2);
+    src: url(../fonts/fontwoffiQkDGmtwoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Hebrew)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff9uP57Itwoff2.woff2);
+    src: url(../fonts/fontwoff9uP57Itwoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Hebrew)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffUEkXUNtwoff2.woff2);
+    src: url(../fonts/fontwoffUEkXUNtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Hebrew)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff5G9ZWXtwoff2.woff2);
+    src: url(../fonts/fontwoff5G9ZWXtwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Hebrew)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff8zHFo7twoff2.woff2);
+    src: url(../fonts/fontwoff8zHFo7twoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Vietnamese)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwofflAdD1Otwoff2.woff2);
+    src: url(../fonts/fontwofflAdD1Otwoff2.woff2);
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Vietnamese)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffqQHRcvtwoff2.woff2);
+    src: url(../fonts/fontwoffqQHRcvtwoff2.woff2);
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Vietnamese)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffTE2opvtwoff2.woff2);
+    src: url(../fonts/fontwoffTE2opvtwoff2.woff2);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (Vietnamese)";
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffr7ixz2twoff2.woff2);
+    src: url(../fonts/fontwoffr7ixz2twoff2.woff2);
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (West European)";
-    src: local("Segoe UI Light"), url(http://localhost/componenter/cards/assets/fonts/fontwoffO3pXlptwoff2.woff2);
+    src: local("Segoe UI Light"), url("../fonts/fontwoffO3pXlptwoff2.woff2");
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (West European)";
-    src: local("Segoe UI SemiLight"), url(http://localhost/componenter/cards/assets/fonts/fontwoffEUVElgtwoff2.woff2);
+    src: local("Segoe UI SemiLight"), url("../fonts/fontwoffEUVElgtwoff2.woff2");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (West European)";
-    src: local("Segoe UI"), url(http://localhost/componenter/cards/assets/fonts/fontwoffmh8l5twoff2.woff2);
+    src: local("Segoe UI"), url("../fonts/fontwoffmh8l5twoff2.woff2");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Segoe UI Web (West European)";
-    src: local("Segoe UI SemiBold"), url(http://localhost/componenter/cards/assets/fonts/fontwoffHShBqutwoff2.woff2);
-    font-weight: 600;
-    font-style: normal
-}
-
-@font-face {
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffEFQVm7twoff2.woff2);
-    font-weight: 100;
-    font-style: normal
-}
-
-@font-face {
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff1ZonVbtwoff2.woff2);
-    font-weight: 300;
-    font-style: normal
-}
-
-@font-face {
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoffvvMaf9twoff2.woff2);
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    src: url(http://localhost/componenter/cards/assets/fonts/fontwoff8XKSsYtwoff2.woff2);
+    src: local("Segoe UI SemiBold"), url("../fonts/fontwoffHShBqutwoff2.woff2");
     font-weight: 600;
     font-style: normal
 }
